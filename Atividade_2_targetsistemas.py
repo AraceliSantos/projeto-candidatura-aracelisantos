@@ -8,7 +8,7 @@ lista = [0, 1]
 
 #determinei uma extensão da lista, para não ser uma lista infinita, mesmo sabendo que a sequência de Fibonacci é infinita. 
 
-for n in range(0,31):
+for n in range(0,101):
     soma = ult + penult
     penult = ult
     ult = soma
